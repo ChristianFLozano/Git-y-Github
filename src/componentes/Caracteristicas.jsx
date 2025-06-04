@@ -1,4 +1,3 @@
-import React from 'react';
 
 function Caracteristicas(props) {
     const { titulo, descripcion, imagen } = props.caracteristica;
