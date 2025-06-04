@@ -1,3 +1,5 @@
+import image from "../assets/gitHubImagen1.webp"
+
 function Introduccion() {
     function etapaDelDia() {
         const hora = new Date().getHours();
@@ -21,7 +23,7 @@ function Introduccion() {
             </div>
             <div className='lg:w-1/2 flex justify-center items-center'>
                 <figure className="flex flex-col justify-center items-center">
-                    <img className="rounded-lg" src="src\assets\gitHubImagen1.webp" alt="Imagen ilustrativa sobre GitHub" />
+                    <img className="rounded-lg" src={image} alt="Imagen ilustrativa sobre GitHub" />
                     <figcaption className="text-white">Imagen ilustrativa sobre GitHub</figcaption>
                 </figure>
             </div>
