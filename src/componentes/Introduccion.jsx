@@ -12,10 +12,12 @@ function Introduccion() {
     }
     
     return (
-        <section className='bg-slate-900 flex lg:flex-row flex-col p-5 '>
-            <div className='lg:w-1/2 p-2'>
-                <h2 className="text-white text-5xl">{etapaDelDia()}</h2>
-                <p className="text-white text-xl text-justify">En esta landing page veremos sobre la importancia de GitHub para proyectos. Desde sus humildes comienzos, GitHub ha experimentado un crecimiento fenomenal. Lo que comenzó como un lugar para alojar repositorios de código ha evolucionado rápidamente hacia una plataforma integral que abarca control de versiones, gestión de proyectos, colaboración en equipo, educación y mucho más. En 2018, Microsoft adquirió GitHub, ampliando aún más su alcance y recursos.</p>
+        <section className='bg-slate-900 flex lg:flex-row flex-col p-5 gap-5'>
+            <div className='flex flex-col gap-5 lg:w-1/2 p-2 justify-center'>
+                <h2 className="text-white text-5xl ">{etapaDelDia()}</h2>
+                <p className="text-white text-xl text-justify ">En esta landing page veremos sobre la importancia de GitHub para 
+                    proyectos. Desde sus humildes comienzos, GitHub ha experimentado un crecimiento fenomenal. 
+                    <br /> Lo que comenzó como un lugar para alojar repositorios de código ha evolucionado rápidamente hacia una plataforma integral que abarca control de versiones, gestión de proyectos, colaboración en equipo, educación y mucho más. En 2018, Microsoft adquirió GitHub, ampliando aún más su alcance y recursos.</p>
             </div>
             <div className='lg:w-1/2 flex justify-center items-center'>
                 <figure className="flex flex-col justify-center items-center">
